@@ -1,0 +1,519 @@
+Infija -> 5+6*z
+Prefija -> + 5 * 6 z 
+Postfija -> 5 6 z * + 
+
+Arbol -> 
+Raiz *
+Nodo z a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> a+5-6*z
+Prefija -> + a - 5 * 6 z 
+Postfija -> a 5 + 6 z * - 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo a a la izquierda de +
+Raiz *
+Nodo z a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz -
+Nodo * a la derecha de -
+Nodo + a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> a-5-6*z
+Prefija -> - a - 5 * 6 z 
+Postfija -> a 5 - 6 z * - 
+
+Arbol -> 
+Raiz -
+Nodo 5 a la derecha de -
+Nodo a a la izquierda de -
+Raiz *
+Nodo z a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz -
+Nodo * a la derecha de -
+Nodo - a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> (5+6)/z
+Prefija -> / + 5 6 z 
+Postfija -> 5 6 + z / 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz /
+Nodo z a la derecha de /
+Nodo + a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (5+6)-5/z
+Prefija -> - + 5 6 / 5 z 
+Postfija -> 5 6 + 5 z / - 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz /
+Nodo z a la derecha de /
+Nodo 5 a la izquierda de /
+Raiz -
+Nodo / a la derecha de -
+Nodo + a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> (5+6)-5+6/z
+Prefija -> - + 5 6 + 5 / 6 z 
+Postfija -> 5 6 + 5 - 6 z / + 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz -
+Nodo 5 a la derecha de -
+Nodo + a la izquierda de -
+Raiz /
+Nodo z a la derecha de /
+Nodo 6 a la izquierda de /
+Raiz +
+Nodo / a la derecha de +
+Nodo - a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+6-5+6/z
+Prefija -> + 5 - 6 + 5 / 6 z 
+Postfija -> 5 6 + 5 - 6 z / + 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz -
+Nodo 5 a la derecha de -
+Nodo + a la izquierda de -
+Raiz /
+Nodo z a la derecha de /
+Nodo 6 a la izquierda de /
+Raiz +
+Nodo / a la derecha de +
+Nodo - a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+6-5+6/z+8.6
+Prefija -> + 5 - 6 + 5 + / 6 z 8.6 
+Postfija -> 5 6 + 5 - 6 z / + 8.6 + 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz -
+Nodo 5 a la derecha de -
+Nodo + a la izquierda de -
+Raiz /
+Nodo z a la derecha de /
+Nodo 6 a la izquierda de /
+Raiz +
+Nodo / a la derecha de +
+Nodo - a la izquierda de +
+Raiz +
+Nodo 8.6 a la derecha de +
+Nodo + a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+6-5+6/z+8*6
+Prefija -> + 5 - 6 + 5 + / 6 z * 8 6 
+Postfija -> 5 6 + 5 - 6 z / + 8 6 * + 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz -
+Nodo 5 a la derecha de -
+Nodo + a la izquierda de -
+Raiz /
+Nodo z a la derecha de /
+Nodo 6 a la izquierda de /
+Raiz +
+Nodo / a la derecha de +
+Nodo - a la izquierda de +
+Raiz *
+Nodo 6 a la derecha de *
+Nodo 8 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo + a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> (((5+9)*2)+(6*5))
+Prefija -> ()5*6)+(2*(9+5)()
+Postfija -> 5 9 + 2 * 6 5 * + 
+
+Arbol -> 
+Raiz +
+Nodo 9 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo 2 a la derecha de *
+Nodo + a la izquierda de *
+Raiz *
+Nodo 5 a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo * a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> (((5+9)*2)+(6*5))
+Prefija -> ()5*6)+(2*(9+5)()
+Postfija -> 5 9 + 2 * 6 5 * + 
+
+Arbol -> 
+Raiz +
+Nodo 9 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo 2 a la derecha de *
+Nodo + a la izquierda de *
+Raiz *
+Nodo 5 a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo * a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> (((5+9)*2)+(6*5))
+Prefija -> + * + 5 9 2 * 6 5 
+Postfija -> 5 9 + 2 * 6 5 * + 
+
+Arbol -> 
+Raiz +
+Nodo 9 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo 2 a la derecha de *
+Nodo + a la izquierda de *
+Raiz *
+Nodo 5 a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo * a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+6
+Prefija -> + 5 6 
+Postfija -> 5 6 + 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> (((5+9)*2)+(6*5))/7
+Prefija -> / + * + 5 9 2 * 6 5 7 
+Postfija -> 5 9 + 2 * 6 5 * + 7 / 
+
+Arbol -> 
+Raiz +
+Nodo 9 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo 2 a la derecha de *
+Nodo + a la izquierda de *
+Raiz *
+Nodo 5 a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo * a la izquierda de +
+Raiz /
+Nodo 7 a la derecha de /
+Nodo + a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (((5+9)*2)+(6*5))/7
+Prefija -> / + * + 5 9 2 * 6 5 7 
+Postfija -> 5 9 + 2 * 6 5 * + 7 / 
+
+Arbol -> 
+Raiz +
+Nodo 9 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo 2 a la derecha de *
+Nodo + a la izquierda de *
+Raiz *
+Nodo 5 a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo * a la izquierda de +
+Raiz /
+Nodo 7 a la derecha de /
+Nodo + a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> A+B-(C/D)$(E+F)
+Prefija -> + A - B / C D + E F 
+Postfija -> A B + C D / E F + - 
+
+Arbol -> 
+Raiz +
+Nodo B a la derecha de +
+Nodo A a la izquierda de +
+Raiz /
+Nodo D a la derecha de /
+Nodo C a la izquierda de /
+Raiz +
+Nodo F a la derecha de +
+Nodo E a la izquierda de +
+Raiz -
+Nodo + a la derecha de -
+Nodo / a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> A+B-(C/D)$(E+F)
+Prefija -> + A - B / C D + E F 
+Postfija -> A B + C D / E F + - 
+
+Arbol -> 
+Raiz +
+Nodo B a la derecha de +
+Nodo A a la izquierda de +
+Raiz /
+Nodo D a la derecha de /
+Nodo C a la izquierda de /
+Raiz +
+Nodo F a la derecha de +
+Nodo E a la izquierda de +
+Raiz -
+Nodo + a la derecha de -
+Nodo / a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> A+B-(C/D)$(E+F)
+Prefija -> + A - B / C D + E F 
+Postfija -> A B + C D / E F + - 
+
+Arbol -> 
+Raiz +
+Nodo B a la derecha de +
+Nodo A a la izquierda de +
+Raiz /
+Nodo D a la derecha de /
+Nodo C a la izquierda de /
+Raiz +
+Nodo F a la derecha de +
+Nodo E a la izquierda de +
+Raiz -
+Nodo + a la derecha de -
+Nodo / a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> A+B-(C/D)$(E+F)
+Prefija -> + A - B / C D + E F 
+Postfija -> A B + C D / E F + - 
+
+Arbol -> 
+Raiz +
+Nodo B a la derecha de +
+Nodo A a la izquierda de +
+Raiz /
+Nodo D a la derecha de /
+Nodo C a la izquierda de /
+Raiz +
+Nodo F a la derecha de +
+Nodo E a la izquierda de +
+Raiz -
+Nodo + a la derecha de -
+Nodo / a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> 10 + (1 + 2) * 2
+Prefija -> + 10 * + 1 2 2 
+Postfija -> 10 1 2 + 2 * + 
+
+Arbol -> 
+Raiz +
+Nodo 2 a la derecha de +
+Nodo 1 a la izquierda de +
+Raiz *
+Nodo 2 a la derecha de *
+Nodo + a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 10 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 10 * (5 + 6) / 6 - 2 * (7 + 3)
+Prefija -> - * 10 / + 5 6 6 * 2 + 7 3 
+Postfija -> 10 5 6 + * 6 / 2 7 3 + * - 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo + a la derecha de *
+Nodo 10 a la izquierda de *
+Raiz /
+Nodo 6 a la derecha de /
+Nodo * a la izquierda de /
+Raiz +
+Nodo 3 a la derecha de +
+Nodo 7 a la izquierda de +
+Raiz *
+Nodo + a la derecha de *
+Nodo 2 a la izquierda de *
+Raiz -
+Nodo * a la derecha de -
+Nodo / a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> 8 + 9 * (8 - 9) + 80
+Prefija -> + 8 + * 9 - 8 9 80 
+Postfija -> 8 9 8 9 - * + 80 + 
+
+Arbol -> 
+Raiz -
+Nodo 9 a la derecha de -
+Nodo 8 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 8 a la izquierda de +
+Raiz +
+Nodo 80 a la derecha de +
+Nodo + a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> (5 + 3 * 4) + 8 * 4
+Prefija -> + + 5 * 3 4 * 8 4 
+Postfija -> 5 3 4 * + 8 4 * + 
+
+Arbol -> 
+Raiz *
+Nodo 4 a la derecha de *
+Nodo 3 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo 4 a la derecha de *
+Nodo 8 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo + a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5 * 8 / 3 + 9 - ( 9 * 7 )
+Prefija -> + * 5 / 8 3 - 9 * 9 7 
+Postfija -> 5 8 * 3 / 9 + 9 7 * - 
+
+Arbol -> 
+Raiz *
+Nodo 8 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz /
+Nodo 3 a la derecha de /
+Nodo * a la izquierda de /
+Raiz +
+Nodo 9 a la derecha de +
+Nodo / a la izquierda de +
+Raiz *
+Nodo 7 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz -
+Nodo * a la derecha de -
+Nodo + a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
