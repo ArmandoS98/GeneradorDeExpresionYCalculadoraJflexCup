@@ -1,0 +1,340 @@
+Infija -> (9*3)-(8/0)
+Prefija -> - * 9 3 / 8 0 
+Postfija -> 9 3 * 8 0 / - 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 0 a la derecha de /
+Nodo 8 a la izquierda de /
+Raiz -
+Nodo / a la derecha de -
+Nodo * a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0()
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 0 a la derecha de /
+Nodo 8 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0(5)
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo 0 a la izquierda de /
+ROOT : /
+
+
+*****************************************************************************
+
+Infija -> A + B * (5 - 7)
+Prefija -> + A * B - 5 7 
+Postfija -> A B 5 7 - * + 
+
+Arbol -> 
+Raiz -
+Nodo 7 a la derecha de -
+Nodo 5 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo B a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo A a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> A + B * (5 - 7()
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz -
+Nodo 7 a la derecha de -
+Nodo 5 a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> A + B * (5 - 7)
+Prefija -> + A * B - 5 7 
+Postfija -> A B 5 7 - * + 
+
+Arbol -> 
+Raiz -
+Nodo 7 a la derecha de -
+Nodo 5 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo B a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo A a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 10*(5+5)-50
+Prefija -> - * 10 + 5 5 50 
+Postfija -> 10 5 5 + * 50 - 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo + a la derecha de *
+Nodo 10 a la izquierda de *
+Raiz -
+Nodo 50 a la derecha de -
+Nodo * a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> 10*(5+5()-50
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz -
+Nodo 50 a la derecha de -
+Nodo + a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> 10*(5+5)-50
+Prefija -> - * 10 + 5 5 50 
+Postfija -> 10 5 5 + * 50 - 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz *
+Nodo + a la derecha de *
+Nodo 10 a la izquierda de *
+Raiz -
+Nodo 50 a la derecha de -
+Nodo * a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> 10*(5+5()-50
+Prefija -> Expresion invalida
+Postfija -> Invalid Expression
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz -
+Nodo 50 a la derecha de -
+Nodo + a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0)+(3^1)
+Prefija -> - * 9 3 + / 8 0 ^ 3 1 
+Postfija -> 9 3 * 8 0 / - 3 1 ^ + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 0 a la derecha de /
+Nodo 8 a la izquierda de /
+Raiz -
+Nodo / a la derecha de -
+Nodo * a la izquierda de -
+Raiz ^
+Nodo 1 a la derecha de ^
+Nodo 3 a la izquierda de ^
+Raiz +
+Nodo ^ a la derecha de +
+Nodo - a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> (9*3)-(8/0)+(3^1)+B-Z
+Prefija -> - * 9 3 + / 8 0 + ^ 3 1 - B Z 
+Postfija -> 9 3 * 8 0 / - 3 1 ^ + B + Z - 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 9 a la izquierda de *
+Raiz /
+Nodo 0 a la derecha de /
+Nodo 8 a la izquierda de /
+Raiz -
+Nodo / a la derecha de -
+Nodo * a la izquierda de -
+Raiz ^
+Nodo 1 a la derecha de ^
+Nodo 3 a la izquierda de ^
+Raiz +
+Nodo ^ a la derecha de +
+Nodo - a la izquierda de +
+Raiz +
+Nodo B a la derecha de +
+Nodo + a la izquierda de +
+Raiz -
+Nodo Z a la derecha de -
+Nodo + a la izquierda de -
+ROOT : -
+
+
+*****************************************************************************
+

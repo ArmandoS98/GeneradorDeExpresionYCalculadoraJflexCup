@@ -18,7 +18,7 @@ public class ExpressionTree {
     //Verificar si el caracter es un operador
 
     public static boolean isOperator(String c) {
-        return c.equals("+") || c.equals("-") || c.equals("*") || c.equals("/") || c.equals("^");
+        return c.equals("+") || c.equals("-") || c.equals("*") || c.equals("/") || c.equals("^") || c.equals("%");
     }
 
     //Verificar si el caracter es un operador
@@ -66,43 +66,50 @@ public class ExpressionTree {
 
     // Retorna el nodo raiz de la expresion dada
     public static Node constructTree(String[] postfix, JTextArea visualizar, String postfija, String infija, String prefija) {
+
         String msg = "";
         Stack<Node> st = new Stack<>();
         Node t; //Final
         Node t1, t2; //Temporales
 
-        for (String postfix1 : postfix) {
-            if (postfix1 != null) {
-                // Digitos o Literales
-                if (!isOperator(postfix1)) {
-                    t = new Node(postfix1);
-                    st.push(t);
-                } else // Operadores
-                {
-                    t = new Node(postfix1);
-                    String raiz = t.value;
-                    msg += "Raiz " + raiz + "\n";
-                    // Le hacemos Pop a los 2 primes nodos que esten en el top de la stack
-                    t1 = st.pop(); //Se retira el primero
-                    t2 = st.pop(); //Se retira el segundo
-                    msg += "Nodo " + t1.value + " a la derecha de " + raiz + "\n";
-                    msg += "Nodo " + t2.value + " a la izquierda de " + raiz + "\n";
-                    //creamos los nodos hijos
-                    t.right = t1;
-                    t.left = t2;
-                    st.push(t);
+        try {
+            for (String postfix1 : postfix) {
+                if (postfix1 != null) {
+                    // Digitos o Literales
+                    if (!isOperator(postfix1)) {
+                        t = new Node(postfix1);
+                        st.push(t);
+                    } else // Operadores
+                    {
+                        t = new Node(postfix1);
+                        String raiz = t.value;
+                        msg += "Raiz " + raiz + "\n";
+                        // Le hacemos Pop a los 2 primes nodos que esten en el top de la stack
+                        t1 = st.pop(); //Se retira el primero
+                        t2 = st.pop(); //Se retira el segundo
+                        msg += "Nodo " + t1.value + " a la derecha de " + raiz + "\n";
+                        msg += "Nodo " + t2.value + " a la izquierda de " + raiz + "\n";
+                        //creamos los nodos hijos
+                        t.right = t1;
+                        t.left = t2;
+                        st.push(t);
+                    }
                 }
             }
+
+            t = st.peek();
+            msg += "ROOT : " + t.value + "\n";
+            visualizar.setText(msg);
+            st.pop();
+
+            // guardar en archivo 31/03/2021
+            GuardarFichero mFichero = new GuardarFichero(msg, postfija, infija, prefija);
+            mFichero.save();
+        } catch (Exception ex) {
+            visualizar.setText("No fue posible generar el Arbol con la expresion: " + infija);
+            t = null;
         }
 
-        t = st.peek();
-        msg += "ROOT : " + t.value + "\n";
-        visualizar.setText(msg);
-        st.pop();
-
-        // guardar en archivo 31/03/2021
-        GuardarFichero mFichero = new GuardarFichero(msg, postfija, infija, prefija);
-        mFichero.save();
         return t;
     }
 
