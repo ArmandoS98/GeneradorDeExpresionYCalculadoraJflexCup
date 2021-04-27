@@ -13,7 +13,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- *
+ * @author Tote
+ * @author Brodner
+ * @author David
  * @author Armando Santos
  */
 public class GuardarFichero {

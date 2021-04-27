@@ -15,10 +15,9 @@ import java.util.regex.Pattern;
 import javax.swing.JTextArea;
 
 /**
- *
- * @author Armando Santos
- * @author Armando Santos
- * @author Armando Santos
+ * @author Tote
+ * @author Brodner
+ * @author David
  * @author Armando Santos
  */
 public class GenerarExpresion {

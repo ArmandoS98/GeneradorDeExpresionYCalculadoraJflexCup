@@ -6,7 +6,9 @@
 package Utils;
 
 /**
- *
+ * @author Tote
+ * @author Brodner
+ * @author David
  * @author Armando Santos
  */
 public class Node {

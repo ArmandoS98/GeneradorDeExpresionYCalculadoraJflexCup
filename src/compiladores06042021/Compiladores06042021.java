@@ -6,7 +6,9 @@
 package compiladores06042021;
 
 /**
- *
+ * @author Tote
+ * @author David
+ * @author Brodner
  * @author Armando Santos
  */
 public class Compiladores06042021 {

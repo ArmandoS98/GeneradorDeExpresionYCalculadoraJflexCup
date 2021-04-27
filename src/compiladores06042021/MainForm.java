@@ -10,22 +10,19 @@ import static Utils.GenerarExpresion.empiesaConOperador;
 import static Utils.GenerarExpresion.evaluarAlternaciones;
 import static Utils.GenerarExpresion.infixToPostfixV2;
 import static Utils.GenerarExpresion.infixToPrefix;
-import static Utils.GenerarExpresion.isLetterOrDigit;
 import static Utils.GenerarExpresion.terminaConOperador;
 import static Utils.GenerarExpresion.validarParentesis;
-import static Utils.GenerarExpresion.validarSiContieneV2;
 import static Utils.GenerarExpresion.valuarExpresion;
 import Utils.GraficadorArboles;
 import Utils.Node;
 import Utils.Node_v2;
 import Utils.PostfixPojo;
-import java.util.Stack;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTextArea;
 
 /**
- *
+ * @author Tote
+ * @author Brodner
+ * @author David
  * @author Armando Santos
  */
 public class MainForm extends javax.swing.JFrame {
