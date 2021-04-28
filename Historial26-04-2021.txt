@@ -2825,3 +2825,47 @@ ROOT : /
 
 *****************************************************************************
 
+Infija -> 5+1*3/5*8
+Prefija -> + 5 * 1 / 3 * 5 8 
+Postfija -> 5 1 3 * 5 / 8 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8
+Prefija -> + 5 * 1 / 3 * 5 8 
+Postfija -> 5 1 3 * 5 / 8 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+

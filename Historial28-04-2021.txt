@@ -1,0 +1,414 @@
+Infija -> 5.0+1.0*3.0/5.0*8.0
+Prefija -> + 5.0 * 1.0 / 3.0 * 5.0 8.0 
+Postfija -> 5.0 1.0 3.0 * 5.0 / 8.0 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3.0 a la derecha de *
+Nodo 1.0 a la izquierda de *
+Raiz /
+Nodo 5.0 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8.0 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5.0 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5.0+1.0*3/5*8
+Prefija -> + 5.0 * 1.0 / 3 * 5 8 
+Postfija -> 5.0 1.0 3 * 5 / 8 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1.0 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5.0 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5.0+1.0*3/5*8
+Prefija -> + 5.0 * 1.0 / 3 * 5 8 
+Postfija -> 5.0 1.0 3 * 5 / 8 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1.0 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5.0 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5.0+1*3/5*8
+Prefija -> + 5.0 * 1 / 3 * 5 8 
+Postfija -> 5.0 1 3 * 5 / 8 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5.0 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8
+Prefija -> + 5 * 1 / 3 * 5 8 
+Postfija -> 5 1 3 * 5 / 8 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.0
+Prefija -> + 5 * 1 / 3 * 5 8.0 
+Postfija -> 5 1 3 * 5 / 8.0 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8.0 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.0
+Prefija -> + 5 * 1 / 3 * 5 8.0 
+Postfija -> 5 1 3 * 5 / 8.0 * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8.0 a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.
+Prefija -> + 5 * 1 / 3 * 5 8. 
+Postfija -> 5 1 3 * 5 / 8. * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8. a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.
+Prefija -> + 5 * 1 / 3 * 5 8. 
+Postfija -> 5 1 3 * 5 / 8. * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8. a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.
+Prefija -> + 5 * 1 / 3 * 5 8. 
+Postfija -> 5 1 3 * 5 / 8. * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8. a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.
+Prefija -> + 5 * 1 / 3 * 5 8. 
+Postfija -> 5 1 3 * 5 / 8. * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo 8. a la derecha de *
+Nodo / a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+1*3/5*8.g
+Prefija -> + 5 * 1 / 3 * 5 8. g 
+Postfija -> 5 1 3 * 5 / 8. g * + 
+
+Arbol -> 
+Raiz *
+Nodo 3 a la derecha de *
+Nodo 1 a la izquierda de *
+Raiz /
+Nodo 5 a la derecha de /
+Nodo * a la izquierda de /
+Raiz *
+Nodo g a la derecha de *
+Nodo 8. a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo / a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 0
+Prefija -> 0 
+Postfija -> 0 
+
+Arbol -> 
+ROOT : 0
+
+
+*****************************************************************************
+
+Infija -> 5+5
+Prefija -> + 5 5 
+Postfija -> 5 5 + 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+5*(2*1)
+Prefija -> + 5 * 5 * 2 1 
+Postfija -> 5 5 2 1 * * + 
+
+Arbol -> 
+Raiz *
+Nodo 1 a la derecha de *
+Nodo 2 a la izquierda de *
+Raiz *
+Nodo * a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+2
+Prefija -> + 5 2 
+Postfija -> 5 2 + 
+
+Arbol -> 
+Raiz +
+Nodo 2 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5*9*(6-5)
+Prefija -> * 5 * 9 - 6 5 
+Postfija -> 5 9 * 6 5 - * 
+
+Arbol -> 
+Raiz *
+Nodo 9 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz -
+Nodo 5 a la derecha de -
+Nodo 6 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo * a la izquierda de *
+ROOT : *
+
+
+*****************************************************************************
+
+Infija -> 5*9*(6-5)%C
+Prefija -> * 5 * 9 % - 6 5 C 
+Postfija -> 5 9 * 6 5 - * C % 
+
+Arbol -> 
+Raiz *
+Nodo 9 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz -
+Nodo 5 a la derecha de -
+Nodo 6 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo * a la izquierda de *
+Raiz %
+Nodo C a la derecha de %
+Nodo * a la izquierda de %
+ROOT : %
+
+
+*****************************************************************************
+
+Infija -> 5*9*(6-5)%5
+Prefija -> * 5 * 9 % - 6 5 5 
+Postfija -> 5 9 * 6 5 - * 5 % 
+
+Arbol -> 
+Raiz *
+Nodo 9 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz -
+Nodo 5 a la derecha de -
+Nodo 6 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo * a la izquierda de *
+Raiz %
+Nodo 5 a la derecha de %
+Nodo * a la izquierda de %
+ROOT : %
+
+
+*****************************************************************************
+
+Infija -> 5*9*(6-1)%4
+Prefija -> * 5 * 9 % - 6 1 4 
+Postfija -> 5 9 * 6 1 - * 4 % 
+
+Arbol -> 
+Raiz *
+Nodo 9 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz -
+Nodo 1 a la derecha de -
+Nodo 6 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo * a la izquierda de *
+Raiz %
+Nodo 4 a la derecha de %
+Nodo * a la izquierda de %
+ROOT : %
+
+
+*****************************************************************************
+
+Infija -> 7
+Prefija -> 7 
+Postfija -> 7 
+
+Arbol -> 
+ROOT : 7
+
+
+*****************************************************************************
+

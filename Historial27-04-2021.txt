@@ -1,0 +1,32 @@
+Infija -> 5+6
+Prefija -> + 5 6 
+Postfija -> 5 6 + 
+
+Arbol -> 
+Raiz +
+Nodo 6 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+6*(10-1)
+Prefija -> + 5 * 6 - 10 1 
+Postfija -> 5 6 10 1 - * + 
+
+Arbol -> 
+Raiz -
+Nodo 1 a la derecha de -
+Nodo 10 a la izquierda de -
+Raiz *
+Nodo - a la derecha de *
+Nodo 6 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
