@@ -5,6 +5,10 @@
  */
 package compiladores06042021;
 
+import CalculadoraJflexCup.Compilador.Lexer;
+import CalculadoraJflexCup.Compilador.Sintax;
+import CalculadoraJflexCup.Tree.Environment;
+import CalculadoraJflexCup.Tree.Tree;
 import Utils.ExpressionTree;
 import static Utils.GenerarExpresion.empiesaConOperador;
 import static Utils.GenerarExpresion.evaluarAlternaciones;
@@ -17,6 +21,8 @@ import Utils.GraficadorArboles;
 import Utils.Node;
 import Utils.Node_v2;
 import Utils.PostfixPojo;
+import java.io.StringReader;
+import java_cup.runtime.Symbol;
 import javax.swing.JFrame;
 
 /**
@@ -888,6 +894,7 @@ public class MainForm extends javax.swing.JFrame {
     private void btnBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBorrarActionPerformed
         // TODO add your handling code here:
         txtInputCalculator.setText("0");
+        txtIngresoExpresion.setText("");
         LimpiarTodasLasLabes();
     }//GEN-LAST:event_btnBorrarActionPerformed
 
@@ -914,7 +921,9 @@ public class MainForm extends javax.swing.JFrame {
     private void btnResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResultadoActionPerformed
         // TODO add your handling code here:
         String infija = txtInputCalculator.getText();
+        txtIngresoExpresion.setText("");
         init(infija);
+        compilacionCalc(infija);
     }//GEN-LAST:event_btnResultadoActionPerformed
 
     /**
@@ -1081,6 +1090,27 @@ public class MainForm extends javax.swing.JFrame {
             root2 = ExpressionTree.constructTree(charArray, txtArbol);*/
         } else {
             System.out.println("No hay datos para analizar!");
+        }
+    }
+
+    private void compilacionCalc(String infija) {
+        try {
+            String st = infija;
+            Environment env = new Environment();
+
+            Sintax p = new Sintax(new Lexer(new StringReader(st)));
+
+            Symbol s = p.parse();
+
+            Tree tree = (Tree) s.value;
+
+            env.print();
+            tree.print();
+
+            txtInputCalculator.setText("" + tree.eval(env));
+
+        } catch (Exception ex) {
+            System.out.println("Error: " + ex.getMessage());
         }
     }
 }

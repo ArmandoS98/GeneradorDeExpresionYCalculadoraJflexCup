@@ -412,3 +412,142 @@ ROOT : 7
 
 *****************************************************************************
 
+Infija -> 5+5
+Prefija -> + 5 5 
+Postfija -> 5 5 + 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+5
+Prefija -> + 5 5 
+Postfija -> 5 5 + 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 2+2
+Prefija -> + 2 2 
+Postfija -> 2 2 + 
+
+Arbol -> 
+Raiz +
+Nodo 2 a la derecha de +
+Nodo 2 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+4
+Prefija -> + 5 4 
+Postfija -> 5 4 + 
+
+Arbol -> 
+Raiz +
+Nodo 4 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+5*2+4
+Prefija -> + 5 + * 5 2 4 
+Postfija -> 5 5 2 * + 4 + 
+
+Arbol -> 
+Raiz *
+Nodo 2 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz +
+Nodo 4 a la derecha de +
+Nodo + a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+5*2+4
+Prefija -> + 5 + * 5 2 4 
+Postfija -> 5 5 2 * + 4 + 
+
+Arbol -> 
+Raiz *
+Nodo 2 a la derecha de *
+Nodo 5 a la izquierda de *
+Raiz +
+Nodo * a la derecha de +
+Nodo 5 a la izquierda de +
+Raiz +
+Nodo 4 a la derecha de +
+Nodo + a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 5+5
+Prefija -> + 5 5 
+Postfija -> 5 5 + 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 0
+Prefija -> 0 
+Postfija -> 0 
+
+Arbol -> 
+ROOT : 0
+
+
+*****************************************************************************
+
+Infija -> 5+5
+Prefija -> + 5 5 
+Postfija -> 5 5 + 
+
+Arbol -> 
+Raiz +
+Nodo 5 a la derecha de +
+Nodo 5 a la izquierda de +
+ROOT : +
+
+
+*****************************************************************************
+
+Infija -> 8*8
+Prefija -> * 8 8 
+Postfija -> 8 8 * 
+
+Arbol -> 
+Raiz *
+Nodo 8 a la derecha de *
+Nodo 8 a la izquierda de *
+ROOT : *
+
+
+*****************************************************************************
+

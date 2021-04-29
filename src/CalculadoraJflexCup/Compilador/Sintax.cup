@@ -1,0 +1,37 @@
+package CalculadoraJflexCup.Compilador;
+import java_cup.runtime.*;
+import CalculadoraJflexCup.Tree.*;
+import CalculadoraJflexCup.Operaciones.*;
+
+
+terminal            PLUS, MINUS, MUL, DIV, ASSIGN;
+terminal            LPAREN, RPAREN;
+terminal Double     INT_NUMBER;
+terminal Double     DOU_NUMBER;
+terminal String     IDENT;
+
+non terminal Tree expr;
+
+precedence left PLUS, MINUS;
+precedence left MUL, DIV;
+precedence left ASSIGN;
+
+expr          ::= expr:e1 PLUS expr:e2 
+                    {: RESULT = new Plus(e1, e2); :}
+                | expr:e1 MINUS expr:e2
+                    {: RESULT = new Minus(e1, e2); :}
+                | expr:e1 MUL expr:e2
+                    {: RESULT = new Multiply(e1, e2); :}
+                | expr:e1 DIV expr:e2
+                    {: RESULT = new Divide(e1, e2); :}
+                | LPAREN expr:e RPAREN
+                    {: RESULT = e; :}
+                | IDENT:s ASSIGN expr:e
+                    {: RESULT = new Assignment(s, e); :}
+                | IDENT:s
+                    {: RESULT = new Identifier(s); :}
+                | INT_NUMBER:n
+                    {: RESULT = new Literal(n); :}
+                | DOU_NUMBER:n
+                    {: RESULT = new Literal(n); :}
+                ;
