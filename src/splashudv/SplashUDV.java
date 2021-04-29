@@ -3,24 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package compiladores06042021;
+package splashudv;
 
-import splashudv.TEST;
-import splashudv.splash;
+import com.sun.javafx.applet.Splash;
 
 /**
- * @author Tote
+ *
  * @author David
- * @author Brodner
- * @author Armando Santos
  */
-public class Compiladores06042021 {
+public class SplashUDV {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                
+
         System.out.println("Loading starts...");
 
         splash Splash = new splash();
@@ -38,10 +35,8 @@ public class Compiladores06042021 {
 
         System.out.println("Loading process completed. Closing loading window...");
         Splash.dispose();
-        
-        MainForm mainForm = new MainForm();
-        
-     //  mainForm.show();
-    }
 
+        test.setVisible(true);
+
+    }
 }
